@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBabes - Fruit Ripeness Checker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>ByteBabes</h1>
+    </header>
+    <div class="container">
+        <h2>Fruit Ripeness Checker</h2>
+        <form id="uploadForm">
+            <br>
+            <input type="file" accept="image/*" id="imageInput">
+            <button type="button" onclick="calculateRipeness()">Check Ripeness</button>
+            <div id="result"></div>
+            <img id="uploadedImage" alt="Uploaded Fruit" class="hidden">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 ByteBabes</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
